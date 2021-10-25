@@ -1,0 +1,42 @@
+
+.container{
+  
+    /* display: grid; */
+    /* display: inline-grid; */
+    display: grid;
+    grid-gap: 20px;
+    /* grid-template-columns: 100px 400px; */
+    grid-template-columns: 10% 40%  1fr;
+    grid-template-rows: 200px 300px;
+    text-align: center;
+   padding: 10px;
+    
+    grid-template-areas: 'a  b  c'
+                        'd  e  f'
+                      
+   
+}
+.container div{
+    background-color: blueviolet;
+}
+.ab{
+    grid-area: a
+}
+.bb{
+     grid-area: b
+}
+.cb{
+    grid-area: c
+}
+
+.db{
+    grid-area: d
+}
+
+.eb{
+    grid-area: e
+}
+
+.fb{
+    grid-area: f
+}
