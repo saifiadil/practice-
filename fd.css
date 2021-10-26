@@ -1,0 +1,117 @@
+/* .container div{
+    background-color: blueviolet;
+}
+.ab{
+    grid-area: a
+}
+.bb{
+     grid-area: b
+}
+.cb{
+    grid-area: c
+}
+
+.db{
+    grid-area: d
+}
+
+.eb{
+    grid-area: e
+}
+
+.fb{
+    grid-area: f
+}
+.container{
+    background-color: black;
+  
+    /* display: grid; */
+    /* display: inline-grid; */
+    /* display: grid;
+    grid-gap: 20px;
+    /* grid-template-columns: 100px 400px; */
+    /* grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,200px); */
+    /* align-items: center; */
+    /* justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    */
+   /* padding: 10px;
+    
+    grid-template-areas: 'a  b  c'
+                        'd  e  f'
+                      
+   
+/* } */ 
+/* .ag{
+    width: 600px;
+    height: 400px;
+} */
+@keyframes style1{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: blueviolet;
+    }
+}
+@keyframes slide{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: rgb(red, green, blue);
+    }
+    30%{
+        background-color: rgba(red, green, blue, alpha);
+    }
+    50%{
+        background-color: royalblue;
+    }
+    70%{
+        background-color: saddlebrown;
+    }
+    90%{
+        background-color: rebeccapurple;
+    }
+    100%{
+        background-color: rgba(red, green, blue, alpha);
+    }
+}
+#animation{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation-name: style1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#animation{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation-name:slide;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide1{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+/* https://jolly-kalam-23776e.netlify.app/albumlayout/ */
+#animation2{
+
+    width: 100px;
+    height: 100x;
+    position: relative;
+    background-color: red;
+    animation: slide1 2s infinite;
+    animation-direction: reverse;
+}
